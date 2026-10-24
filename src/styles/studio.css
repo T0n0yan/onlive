@@ -89,7 +89,7 @@ svg {
 }
 
 .gradient-text {
-  background: linear-gradient(90deg, var(--c1), var(--c2), var(--c3), var(--c1));
+  background: linear-gradient(90deg, #f472b6, var(--c3), #fcd34d, #f9a8d4, #f472b6);
   background-size: 300% 100%;
   -webkit-background-clip: text;
   background-clip: text;
