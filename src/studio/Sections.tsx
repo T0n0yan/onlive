@@ -95,7 +95,7 @@ export function Nav() {
     >
       <div className="nav__inner">
         <button className="nav__brand" onClick={() => go("top")}>
-          <span className="nav__logo">K</span>
+          <span className="nav__logo">O</span>
           {BRAND.name}
         </button>
         <nav className="nav__links">

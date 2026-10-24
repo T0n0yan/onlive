@@ -2,8 +2,8 @@
 // demo shop pick it up. Empty contact values are hidden on the site.
 
 export const BRAND = {
-  name: "Kayq Studio",
-  short: "Kayq",
+  name: "OnLive",
+  short: "OnLive",
   city: "Երևան",
   contacts: {
     /** Telegram username without "@", e.g. "kayq_studio". */

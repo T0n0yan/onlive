@@ -1,4 +1,4 @@
-# Kayq Studio
+# OnLive
 
 Ստուդիայի պորտֆոլիո կայք + առցանց խանութների դեմո-կոնստրուկտոր։
 Studio portfolio site plus a live demo builder for online shops (perfume, cakes, flowers, clothing, grocery).
