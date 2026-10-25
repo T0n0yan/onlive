@@ -68,7 +68,6 @@ export function Preloader({ onDone }: { onDone: () => void }) {
 const NAV = [
   { id: "work", label: "Աշխատանքներ" },
   { id: "services", label: "Ծառայություններ" },
-  { id: "builder", label: "Կոնստրուկտոր" },
   { id: "process", label: "Ընթացք" },
 ];
 
@@ -402,7 +401,7 @@ export function Contact() {
           <br />
           <RevealLine text="տանենք օնլայն" className="gradient-text" delay={0.3} />
         </h2>
-        <p>Գրեք մեզ, և նույն օրը ցույց կտանք ձեր կայքի դեմոն՝ ձեր անունով ու գույներով։</p>
+        <p>Գրեք մեզ, և կքննարկենք, թե ինչպիսի կայք է պետք ձեր բիզնեսին։</p>
         <div className="contact__actions">
           <Magnetic strength={0.4}>
             {primary ? (
@@ -411,9 +410,9 @@ export function Contact() {
                 <span>Գրել մեզ</span>
               </a>
             ) : (
-              <button className="orb" onClick={() => scrollToId("builder")} data-cursor="Սկսել">
-                <Icon name="wand" size={28} />
-                <span>Կառուցել դեմո</span>
+              <button className="orb" onClick={() => scrollToId("top")} data-cursor="Գրել">
+                <Icon name="chat" size={28} />
+                <span>Գրել մեզ</span>
               </button>
             )}
           </Magnetic>

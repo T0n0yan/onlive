@@ -124,8 +124,8 @@ export function Hero({ ready }: { ready: boolean }) {
             animate={ready ? { opacity: 1, y: 0 } : {}}
             transition={{ delay: 1, type: "spring", stiffness: 100, damping: 18 }}
           >
-            Առցանց խանութ՝ կատալոգով, զամբյուղով, պատվերով ու վճարումով։ Ձեր խանութի դեմոն ցույց կտանք հենց
-            առաջին հանդիպմանը։
+            Առցանց խանութ՝ կատալոգով, զամբյուղով, պատվերով ու վճարումով։ Աշխատում է հեռախոսում, պլանշետում ու
+            համակարգչում։
           </motion.p>
           <motion.div
             className="hero__cta"
@@ -134,8 +134,8 @@ export function Hero({ ready }: { ready: boolean }) {
             transition={{ delay: 1.15, type: "spring", stiffness: 100, damping: 18 }}
           >
             <Magnetic>
-              <button className="btn btn--primary" onClick={() => scrollToId("builder")} data-cursor="Սկսել">
-                <Icon name="wand" size={18} /> Կառուցել դեմո
+              <button className="btn btn--primary" onClick={() => scrollToId("contact")} data-cursor="Գրել">
+                <Icon name="chat" size={18} /> Պատվիրել կայք
               </button>
             </Magnetic>
             <Magnetic>
@@ -156,9 +156,9 @@ export function Hero({ ready }: { ready: boolean }) {
           <div className="hero__glow" style={{ background: VERTICALS[rotating.vertical].theme.accent }} />
           <button
             className="hero__phone"
-            onClick={() => scrollToId("builder")}
-            data-cursor="Փորձել"
-            aria-label="Բացել կոնստրուկտորը"
+            onClick={() => scrollToId("work")}
+            data-cursor="Աշխատանքներ"
+            aria-label="Աշխատանքներ"
           >
             <DeviceFrame device="phone" state={state} scale={scale} interactive={false} eager scrollTarget={scrollTarget} />
           </button>

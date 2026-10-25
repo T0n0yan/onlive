@@ -1,5 +1,4 @@
 import { useCallback, useEffect, useState } from "react";
-import { Generator } from "./Generator.tsx";
 import { Hero } from "./Hero.tsx";
 import { Cursor, setScrollLocked, useSmoothScroll } from "./motion.tsx";
 import { Contact, Footer, Marquee, Nav, Preloader, Process, ScrollProgress, Services, Stats, Why } from "./Sections.tsx";
@@ -29,7 +28,6 @@ export function App() {
         <Work />
         <Services />
         <Why />
-        <Generator />
         <Process />
         <Contact />
       </main>

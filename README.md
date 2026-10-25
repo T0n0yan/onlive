@@ -4,7 +4,7 @@
 Studio portfolio site plus a live demo builder for online shops (perfume, cakes, flowers, clothing, grocery).
 
 - `index.html` — պորտֆոլիո՝ աշխատանքներ, ծառայություններ, կոնստրուկտոր, կապ։
-- `shop.html?v=cake&f=catalog,cart&name=Անուշ` — դեմո խանութ։ Կոնստրուկտորի «Պատճենել հղումը» կոճակը տալիս է հենց այս հղումը, որը կարելի է ուղարկել հաճախորդին։
+- `shop.html?v=cake&f=catalog,cart&name=Անուշ` — դեմո խանութ։ Ներքին դեմո, օգտագործվում է գլխավոր էջի հեռախոսում։
 
 ## Որտեղ ինչ փոխել
 
